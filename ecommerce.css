@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 30px;
+    color: rgb(72, 58, 58);
+}
+
+.product-list {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(76, 65, 65);
+}
+
+.product {
+    border: 1px solid rgb(251, 249, 249);
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+}
+
+img {
+    width: 230px;
+    height: 200px;
+}
+
+.product h2 {
+    color: white;
+    margin-bottom: 10px;
+}
+
+.product p {
+    color: white;
+}
+
+#cart {
+    border: 1px solid black;
+    padding: 10px;
+    margin-top: 20px;
+}
+
+.hidden {
+    display: none;
+}
